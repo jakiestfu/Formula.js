@@ -25,9 +25,9 @@ $('a[data-method]').formula({
 
 ## Defaults
 
-`data-method`: String, "GET" || "POST", Type of request to send. ("GET" by default)
-`filter`: Function, Function to modify data before sending. Default: `function(data){ return data; }`
-`done`: Function, Called after ajax request (`success`). Default: `null`
+* `data-method`: String, "GET" || "POST", Type of request to send. ("GET" by default)
+* `filter`: Function, Function to modify data before sending. Default: `function(data){ return data; }`
+* `done`: Function, Called after ajax request (`success`). Default: `null`
 
 ## Notes
 The `this` keyword in the `done` function will represent the element or link that was clicked.
